@@ -1,0 +1,14 @@
+### Envrioment variables ###
+.env
+
+### Nuxt ###
+.nuxt/
+.output/
+server/assets/_locales/
+
+### Node.js ###
+node_modules/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml

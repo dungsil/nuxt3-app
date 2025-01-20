@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":semanticPrefixChore",
+    ":enableVulnerabilityAlertsWithLabel(dependencies:security)",
+    ":automergePatch",
+    ":automergeTypes",
+    ":automergeRequireAllStatusChecks",
+    ":combinePatchMinorReleases",
+    ":gitSignOff"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "automerge": true,
+  "automergeStrategy": "fast-forward"
+}
