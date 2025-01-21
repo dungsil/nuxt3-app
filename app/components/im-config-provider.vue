@@ -2,6 +2,7 @@
 import { APP_NAME, TITLE_SEPARATOR } from '#shared/constants'
 
 const title = useTitle()
+const nonce = useNonce()
 useSeoMeta({
   title,
   titleTemplate: (title?: string) => title ? `${title}${TITLE_SEPARATOR}${APP_NAME}` : APP_NAME,
@@ -9,7 +10,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div>
+  <base-config-provider :nonce="nonce" :scroll-body="false">
     <slot />
-  </div>
+  </base-config-provider>
 </template>
