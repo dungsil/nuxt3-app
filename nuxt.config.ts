@@ -4,7 +4,7 @@ import { $development } from './config/nuxt.dev'
 import { APP_ID, APP_PREFIX, DEFAULT_LOCALE } from './shared/constants'
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', 'nuxt-security', 'nuxt-i18n-micro', 'radix-vue/nuxt'],
+  modules: ['@nuxt/eslint', '@pinia/nuxt', 'nuxt-security', 'nuxt-i18n-micro', 'radix-vue/nuxt'],
 
   $development,
 
@@ -66,6 +66,8 @@ export default defineNuxtConfig({
       { code: 'ko-KR' },
     ],
   },
+
+  pinia: {},
 
   radix: {
     prefix: 'base',
