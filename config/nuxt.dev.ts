@@ -8,7 +8,8 @@ const {
   APP_HTTPS_CERTIFICATE_KEY,
 } = process.env
 
-const publicURL = new URL(APP_PUBLIC_URL)
+const port = Number(APP_PORT)
+const { hostname } = new URL(APP_PUBLIC_URL)
 
 export const $development: NuxtConfig = {
   devtools: {
@@ -16,11 +17,17 @@ export const $development: NuxtConfig = {
   },
 
   devServer: {
-    port: Number(APP_PORT),
-    host: publicURL.hostname,
+    port,
+
     https: {
       cert: APP_HTTPS_CERTIFICATE,
       key: APP_HTTPS_CERTIFICATE_KEY,
+    },
+  },
+
+  vite: {
+    server: {
+      allowedHosts: [hostname],
     },
   },
 
