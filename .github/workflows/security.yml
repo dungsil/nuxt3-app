@@ -15,7 +15,7 @@ on:
 
 jobs:
   codeql:
-    name: Static code analyze with CodeQL
+    name: Static code analyze
     runs-on: ubuntu-latest
     permissions:
       security-events: write
