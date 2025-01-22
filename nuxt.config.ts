@@ -91,7 +91,16 @@ export default defineNuxtConfig({
 
     sri: true,
     nonce: true,
-    csrf: {},
+    csrf: {
+      https: true,
+      // https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#using-cookies-with-host-prefixes-to-identify-origins
+      cookieKey: `__Host-${APP_PREFIX}_CSRF`,
+      cookie: {
+        path: '/',
+        httpOnly: true,
+        sameSite: 'strict',
+      },
+    },
     ssg: {
       meta: true,
       hashScripts: true,
