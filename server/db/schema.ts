@@ -2,7 +2,8 @@
 
 import type { InferSelectModel } from 'drizzle-orm'
 import { int, sqliteTable as table, text } from 'drizzle-orm/sqlite-core'
-import { APP_PREFIX_LOWER } from '../shared/constants'
+
+import { APP_PREFIX_LOWER } from '../../shared/constants'
 
 export const user = table(`${APP_PREFIX_LOWER}_user`, {
   id: int().primaryKey({ autoIncrement: true }),
