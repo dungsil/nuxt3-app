@@ -26,6 +26,9 @@ importers:
       '@types/node':
         specifier: 22.10.7
         version: 22.10.7
+      consola:
+        specifier: 3.4.0
+        version: 3.4.0
       db0:
         specifier: 0.2.1
         version: 0.2.1(@libsql/client@0.14.0)(better-sqlite3@11.8.1)
