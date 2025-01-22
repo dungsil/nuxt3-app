@@ -33,6 +33,9 @@ importers:
       consola:
         specifier: 3.4.0
         version: 3.4.0
+      dayjs:
+        specifier: 1.11.13
+        version: 1.11.13
       db0:
         specifier: 0.2.1
         version: 0.2.1(@libsql/client@0.14.0)(better-sqlite3@11.8.1)(drizzle-orm@0.38.4(@libsql/client@0.14.0)(better-sqlite3@11.8.1))
@@ -66,6 +69,9 @@ importers:
       nuxt-security:
         specifier: 2.1.5
         version: 2.1.5(magicast@0.3.5)(rollup@4.31.0)
+      ohash:
+        specifier: 1.1.4
+        version: 1.1.4
       pinia:
         specifier: 2.3.1
         version: 2.3.1(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3))
@@ -2128,6 +2134,9 @@ packages:
   data-uri-to-buffer@4.0.1:
     resolution: {integrity: sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==}
     engines: {node: '>= 12'}
+
+  dayjs@1.11.13:
+    resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
 
   db0@0.2.1:
     resolution: {integrity: sha512-BWSFmLaCkfyqbSEZBQINMVNjCVfrogi7GQ2RSy1tmtfK9OXlsup6lUMwLsqSD7FbAjD04eWFdXowSHHUp6SE/Q==}
@@ -7217,6 +7226,8 @@ snapshots:
   csv-stringify@6.5.2: {}
 
   data-uri-to-buffer@4.0.1: {}
+
+  dayjs@1.11.13: {}
 
   db0@0.2.1(@libsql/client@0.14.0)(better-sqlite3@11.8.1)(drizzle-orm@0.38.4(@libsql/client@0.14.0)(better-sqlite3@11.8.1)):
     optionalDependencies:

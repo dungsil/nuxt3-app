@@ -1,6 +1,6 @@
 // noinspection ES6PreferShortImport
 
-import type { InferInsertModel } from 'drizzle-orm'
+import type { InferInsertModel, InferSelectModel } from 'drizzle-orm'
 import { int, sqliteTable as table, text } from 'drizzle-orm/sqlite-core'
 
 import { APP_PREFIX_LOWER } from '../../shared/constants'

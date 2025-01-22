@@ -21,7 +21,10 @@ export default defineNuxtConfig({
     },
 
     // 이 하위의 항목은 HTTP 및 HTML 등을 통해 노출되므로 보안상 주의
-    public: {},
+    public: {
+      /** 외부에서 접근가능한 URL */
+      url: 'https://localhost',
+    },
 
     nitro: {
       envPrefix: `${APP_PREFIX}_`,
@@ -57,17 +60,6 @@ export default defineNuxtConfig({
       cache: {
         driver: 'memory',
       },
-    },
-
-    database: {
-      default: {
-        connector: 'libsql-node',
-        options: {},
-      },
-    },
-
-    experimental: {
-      database: true,
     },
   },
 

@@ -26,3 +26,9 @@ export const TITLE_SEPARATOR = ' · '
 
 /** 기본 언어 코드 */
 export const DEFAULT_LOCALE = 'ko-KR'
+
+// 세션
+// =============================================================================
+
+/** 세션 만료 기간 */
+export const SESSION_EXPIRES_DAY = '30d'
