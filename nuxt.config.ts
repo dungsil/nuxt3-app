@@ -16,7 +16,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     database: {
-      location: '',
+      location: 'file:.data/content.db',
       token: '',
     },
 

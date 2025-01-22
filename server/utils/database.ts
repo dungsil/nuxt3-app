@@ -4,7 +4,6 @@ import { drizzle } from 'drizzle-orm/libsql'
 import * as schema from '../db/schema'
 
 const { database } = useRuntimeConfig()
-
 const dbClient = createClient({
   url: database.location,
   authToken: database.token,
