@@ -14,6 +14,21 @@ export default defineNuxtConfig({
     },
   },
 
+  runtimeConfig: {
+    database: {
+      location: '',
+      token: '',
+    },
+
+    // 이 하위의 항목은 HTTP 및 HTML 등을 통해 노출되므로 보안상 주의
+    public: {},
+
+    nitro: {
+      envPrefix: `${APP_PREFIX}_`,
+      envExpansion: true,
+    },
+  },
+
   routeRules: {
     // 전체 경로에 대한 기본 설정
     // 페이지 별 설정은 각 vue 파일 내 `defineRouteRules` 함수를 통해 설정`
@@ -42,6 +57,17 @@ export default defineNuxtConfig({
       cache: {
         driver: 'memory',
       },
+    },
+
+    database: {
+      default: {
+        connector: 'libsql-node',
+        options: {},
+      },
+    },
+
+    experimental: {
+      database: true,
     },
   },
 
