@@ -10,6 +10,9 @@
     ":combinePatchMinorReleases",
     ":gitSignOff"
   ],
+  "reviewers": [
+    "dungsil"
+  ],
   "labels": [
     "dependencies"
   ],
