@@ -1,12 +1,18 @@
-import { createDatabase } from 'db0'
-import libSql from 'db0/connectors/libsql/node'
-import { drizzle } from 'db0/integrations/drizzle'
+import process from 'node:process'
+import { createClient } from '@libsql/client'
+import { drizzle } from 'drizzle-orm/libsql'
+import * as schema from '../db/schema'
 
 const { database } = useRuntimeConfig()
 
-const dbClient = createDatabase(libSql({
+const dbClient = createClient({
   url: database.location,
   authToken: database.token,
-}))
+})
 
-export const db = drizzle(dbClient)
+export * from '../db/schema'
+
+export const db = drizzle(dbClient, {
+  schema,
+  logger: process.env.NODE_ENV !== 'production',
+})
