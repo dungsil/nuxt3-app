@@ -21,6 +21,7 @@ export default defineNuxtConfig({
       prerender: true,
     },
   },
+  watch: ['./config/**/*'],
 
   future: {
     compatibilityVersion: 4,
