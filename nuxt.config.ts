@@ -32,13 +32,6 @@ export default defineNuxtConfig({
     },
   },
 
-  routeRules: {
-    // 전체 경로에 대한 기본 설정
-    // 페이지 별 설정은 각 vue 파일 내 `defineRouteRules` 함수를 통해 설정`
-    '/**': {
-      prerender: true,
-    },
-  },
   watch: ['./config/**/*'],
 
   future: {
@@ -97,8 +90,8 @@ export default defineNuxtConfig({
     rateLimiter: false,
 
     sri: true,
-    csrf: true,
     nonce: true,
+    csrf: {},
     ssg: {
       meta: true,
       hashScripts: true,
