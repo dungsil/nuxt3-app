@@ -20,7 +20,7 @@
     "@antfu/eslint-config": "3.16.0",
     "@nuxt/eslint": "0.7.5",
     "@types/eslint-plugin-security": "3.0.0",
-    "@types/node": "22.10.9",
+    "@types/node": "22.10.10",
     "eslint": "9.18.0",
     "eslint-plugin-format": "1.0.1",
     "eslint-plugin-security": "3.0.1",
