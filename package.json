@@ -29,7 +29,7 @@
     "nuxt-i18n-micro": "1.73.0",
     "nuxt-i18n-micro-cli": "1.1.1",
     "nuxt-security": "2.1.5",
-    "radix-vue": "1.9.12",
+    "radix-vue": "1.9.13",
     "typescript": "5.7.3",
     "unstorage": "1.14.4",
     "vue": "3.5.13",
