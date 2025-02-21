@@ -36,8 +36,8 @@ importers:
         specifier: 3.15.4
         version: 3.15.4(@parcel/watcher@2.5.0)(@types/node@22.13.4)(db0@0.2.1)(encoding@0.1.13)(eslint@9.20.1(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.31.0)(terser@5.37.0)(typescript@5.7.3)(vite@6.0.11(@types/node@22.13.4)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(yaml@2.7.0)
       nuxt-i18n-micro:
-        specifier: 1.76.1
-        version: 1.76.1(magicast@0.3.5)(vite@6.0.11(@types/node@22.13.4)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.7.3)))
+        specifier: 1.76.2
+        version: 1.76.2(magicast@0.3.5)(vite@6.0.11(@types/node@22.13.4)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.7.3)))
       nuxt-i18n-micro-cli:
         specifier: 1.1.1
         version: 1.1.1
@@ -3047,8 +3047,8 @@ packages:
   nuxt-i18n-micro-types@1.0.1:
     resolution: {integrity: sha512-5dl/MU27zqsWo4tIOzUnEZmzwjPcUiYXr/3wjIQQWuBp8iH33gUxksO5CrqoDAam/mA9VMKwBk36YFDGt1wkeQ==}
 
-  nuxt-i18n-micro@1.76.1:
-    resolution: {integrity: sha512-BMgg5f0EQ6PoqYaPthCBLfNaIqLzXriM7KUvfTLyxQtw/OtNI5RDiprkWc7blx4XrjcanYXjmPw0P9ErZCN1hQ==}
+  nuxt-i18n-micro@1.76.2:
+    resolution: {integrity: sha512-0rsG9gGzAz6fgEs42bQIOL6+XsMKlz6+CauQpCtgqY+ifEPQ7IeXOy1V2q2A7m89CcxzsWWUQltOJ8JUBS4RcA==}
     peerDependencies:
       vue-router: '>=4.4.0'
 
@@ -8006,7 +8006,7 @@ snapshots:
 
   nuxt-i18n-micro-types@1.0.1: {}
 
-  nuxt-i18n-micro@1.76.1(magicast@0.3.5)(vite@6.0.11(@types/node@22.13.4)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.7.3))):
+  nuxt-i18n-micro@1.76.2(magicast@0.3.5)(vite@6.0.11(@types/node@22.13.4)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.7.3))):
     dependencies:
       '@nuxt/devtools-kit': 2.1.0(magicast@0.3.5)(vite@6.0.11(@types/node@22.13.4)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))
       '@nuxt/kit': 3.15.4(magicast@0.3.5)
