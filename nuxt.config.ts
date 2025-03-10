@@ -1,4 +1,4 @@
-// noinspection ES6PreferShortImport
+// noinspection ES6PreferShortImport, JSUnusedGlobalSymbols
 
 import { $development } from './config/nuxt.dev'
 import { APP_ID, APP_PREFIX, DEFAULT_LOCALE } from './shared/constants'
