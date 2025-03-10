@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     inlineRouteRules: true,
   },
 
-  compatibilityDate: '2025-01-01',
+  compatibilityDate: '2025-03-01',
 
   nitro: {
     preset: 'node-cluster',

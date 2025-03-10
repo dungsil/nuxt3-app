@@ -14,7 +14,7 @@
     "i18n:validate": "i18n-micro validate",
     "i18n:clean": "i18n-micro clean",
     "build": "nuxi build",
-    "start:preview": "nuxi preview"
+    "start:preview": "pnpm -s build && nuxi preview"
   },
   "devDependencies": {
     "@antfu/eslint-config": "4.8.1",
