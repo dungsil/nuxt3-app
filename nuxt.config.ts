@@ -1,4 +1,4 @@
-// noinspection ES6PreferShortImport
+// noinspection ES6PreferShortImport, JSUnusedGlobalSymbols
 
 import { $development } from './config/nuxt.dev'
 import { APP_ID, APP_PREFIX, DEFAULT_LOCALE } from './shared/constants'
@@ -64,7 +64,7 @@ export default defineNuxtConfig({
     defaultLocale: DEFAULT_LOCALE,
     fallbackLocale: DEFAULT_LOCALE,
     locales: [
-      { code: 'ko-KR' },
+      { code: 'ko-KR', iso: 'ko-KR', dir: 'ltr', displayName: '한국어' },
     ],
   },
 
