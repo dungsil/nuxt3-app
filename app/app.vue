@@ -2,9 +2,9 @@
 </script>
 
 <template>
-  <im-config-provider>
+  <config-provider>
     <nuxt-layout>
       <nuxt-page />
     </nuxt-layout>
-  </im-config-provider>
+  </config-provider>
 </template>

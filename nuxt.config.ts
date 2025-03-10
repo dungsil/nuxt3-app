@@ -64,7 +64,7 @@ export default defineNuxtConfig({
     defaultLocale: DEFAULT_LOCALE,
     fallbackLocale: DEFAULT_LOCALE,
     locales: [
-      { code: 'ko-KR' },
+      { code: 'ko-KR', iso: 'ko-KR', dir: 'ltr', displayName: '한국어' },
     ],
   },
 
