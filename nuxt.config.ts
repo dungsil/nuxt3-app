@@ -4,7 +4,7 @@ import { $development } from './config/nuxt.dev'
 import { APP_ID, APP_PREFIX, DEFAULT_LOCALE } from './shared/constants'
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', 'nuxt-security', 'nuxt-i18n-micro', 'radix-vue/nuxt'],
+  modules: ['@nuxt/eslint', 'nuxt-security', 'nuxt-i18n-micro', 'reka-ui/nuxt'],
 
   $development,
 
@@ -29,8 +29,9 @@ export default defineNuxtConfig({
   },
 
   experimental: {
-    typedPages: true,
+    asyncContext: true,
     buildCache: true,
+    typedPages: true,
     inlineRouteRules: true,
   },
 
@@ -67,7 +68,7 @@ export default defineNuxtConfig({
     ],
   },
 
-  radix: {
+  reka: {
     prefix: 'base',
   },
 
