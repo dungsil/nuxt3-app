@@ -1,5 +1,6 @@
 // noinspection ES6PreferShortImport, JSUnusedGlobalSymbols
 
+import tailwindcss from '@tailwindcss/vite'
 import { $development } from './config/nuxt.dev'
 import { APP_ID, APP_PREFIX, DEFAULT_LOCALE } from './shared/constants'
 
@@ -14,6 +15,8 @@ export default defineNuxtConfig({
     },
   },
 
+  css: ['assets/styles/tailwind.css'],
+
   routeRules: {
     // 전체 경로에 대한 기본 설정
     // 페이지 별 설정은 각 vue 파일 내 `defineRouteRules` 함수를 통해 설정`
@@ -21,6 +24,7 @@ export default defineNuxtConfig({
       prerender: true,
     },
   },
+
   watch: ['./config/**/*'],
 
   future: {
@@ -36,6 +40,10 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2025-03-01',
+
+  vite: {
+    plugins: [tailwindcss()]
+  },
 
   nitro: {
     preset: 'node-cluster',
