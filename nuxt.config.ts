@@ -41,10 +41,6 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-03-01',
 
-  vite: {
-    plugins: [tailwindcss()]
-  },
-
   nitro: {
     preset: 'node-cluster',
     storage: {
@@ -52,6 +48,10 @@ export default defineNuxtConfig({
         driver: 'memory',
       },
     },
+  },
+
+  vite: {
+    plugins: [tailwindcss()],
   },
 
   eslint: {
