@@ -30,7 +30,7 @@
     "nuxt-i18n-micro": "1.79.0",
     "nuxt-i18n-micro-cli": "1.1.1",
     "nuxt-security": "2.2.0",
-    "reka-ui": "2.0.2",
+    "reka-ui": "2.1.0",
     "tailwind-variants": "1.0.0",
     "tailwindcss": "4.0.14",
     "typescript": "5.8.2",
