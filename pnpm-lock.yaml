@@ -39,8 +39,8 @@ importers:
         specifier: 3.16.1
         version: 3.16.1(@parcel/watcher@2.5.0)(@types/node@22.13.14)(db0@0.3.1)(encoding@0.1.13)(eslint@9.23.0(jiti@2.4.2))(ioredis@5.6.0)(lightningcss@1.29.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.36.0)(terser@5.37.0)(typescript@5.8.2)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(yaml@2.7.0)
       nuxt-i18n-micro:
-        specifier: 1.81.0
-        version: 1.81.0(magicast@0.3.5)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.2)))
+        specifier: 1.83.0
+        version: 1.83.0(magicast@0.3.5)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.2)))
       nuxt-i18n-micro-cli:
         specifier: 1.1.1
         version: 1.1.1
@@ -3449,8 +3449,8 @@ packages:
   nuxt-i18n-micro-types@1.0.3:
     resolution: {integrity: sha512-x01rPCLlb2r627Q9lzA0nRC5TEt/mg9G2Hf2fug6941YdttwZtgwOsxXx6chI6O0O2SxBB6pNepyaaVr7lUS9A==}
 
-  nuxt-i18n-micro@1.81.0:
-    resolution: {integrity: sha512-uGVbMYs/Aw84TRpn4ABqsucHmFdM72H1pMACf8lpqs9mY4lHaRassmRvgu5ovgtgrV/idHZXRZyr7IwpkGUZmQ==}
+  nuxt-i18n-micro@1.83.0:
+    resolution: {integrity: sha512-3sMOFAATQ7q7jS9IzJHM8KZ/9gpd+LqdD1pA+YaCGSFmu9FvNxQ++VxcPVd3dq/OdlrG+iWTlwUvBwU5hwGg4g==}
     peerDependencies:
       vue-router: '>=4.4.0'
 
@@ -8700,9 +8700,9 @@ snapshots:
 
   nuxt-i18n-micro-types@1.0.3: {}
 
-  nuxt-i18n-micro@1.81.0(magicast@0.3.5)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.2))):
+  nuxt-i18n-micro@1.83.0(magicast@0.3.5)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.2))):
     dependencies:
-      '@nuxt/devtools-kit': 2.3.0(magicast@0.3.5)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))
+      '@nuxt/devtools-kit': 2.3.2(magicast@0.3.5)(vite@6.2.2(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))
       '@nuxt/kit': 3.16.1(magicast@0.3.5)
       chokidar: 3.6.0
       globby: 14.1.0
