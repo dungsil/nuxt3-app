@@ -33,7 +33,7 @@
     "reka-ui": "2.2.0",
     "tailwind-variants": "1.0.0",
     "tailwindcss": "4.1.2",
-    "typescript": "5.8.2",
+    "typescript": "5.8.3",
     "unplugin-vue-router": "0.12.0",
     "unstorage": "1.15.0",
     "vue": "3.5.13",
