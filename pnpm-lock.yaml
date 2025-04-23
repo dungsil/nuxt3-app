@@ -39,8 +39,8 @@ importers:
         specifier: 3.16.2
         version: 3.16.2(@parcel/watcher@2.5.0)(@types/node@22.14.1)(db0@0.3.1)(encoding@0.1.13)(eslint@9.25.1(jiti@2.4.2))(ioredis@5.6.0)(lightningcss@1.29.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(terser@5.37.0)(typescript@5.8.3)(vite@6.2.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(yaml@2.7.0)
       nuxt-i18n-micro:
-        specifier: 1.83.3
-        version: 1.83.3(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.3)))
+        specifier: 1.83.4
+        version: 1.83.4(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.3)))
       nuxt-i18n-micro-cli:
         specifier: 1.1.1
         version: 1.1.1
@@ -3681,8 +3681,8 @@ packages:
   nuxt-i18n-micro-types@1.0.4:
     resolution: {integrity: sha512-EmDh/Jkcl0AjhcpEm5h7wSRykWmVRuoDlb6qMGrQMBF4tl76GP0TKBJ5FByPIrpp+IsQ7Iw6UCJr0ZDcfpzmDQ==}
 
-  nuxt-i18n-micro@1.83.3:
-    resolution: {integrity: sha512-zkYPvYkLn5GUse05/bmdr5zJirWuq5nIOSHP8+2Ri8D+BWGkU+eWlE+4YEqOBfAjnPmaPdTvdqeOUDu0uWJ3QQ==}
+  nuxt-i18n-micro@1.83.4:
+    resolution: {integrity: sha512-jubcsVtu18pSEEiKDp4gICV5r2L3HRsyCaXRRZosxMIs3f/2V/dXsw6caKU1pFD+SL1bkMQJIWB1P+AbUynyiQ==}
     peerDependencies:
       vue-router: '>=4.4.0'
 
@@ -5768,7 +5768,7 @@ snapshots:
       semver: 7.7.1
       std-env: 3.8.1
       tinyexec: 1.0.1
-      ufo: 1.5.4
+      ufo: 1.6.1
       youch: 4.1.0-beta.6
     transitivePeerDependencies:
       - magicast
@@ -5974,7 +5974,7 @@ snapshots:
       scule: 1.3.0
       semver: 7.7.1
       std-env: 3.8.1
-      ufo: 1.5.4
+      ufo: 1.6.1
       unctx: 2.4.1
       unimport: 4.1.3
       untyped: 2.0.0
@@ -6040,7 +6040,7 @@ snapshots:
       postcss: 8.5.3
       rollup-plugin-visualizer: 5.14.0(rollup@4.39.0)
       std-env: 3.8.1
-      ufo: 1.5.4
+      ufo: 1.6.1
       unenv: 2.0.0-rc.15
       unplugin: 2.2.2
       vite: 6.2.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0)
@@ -9100,7 +9100,7 @@ snapshots:
 
   nuxt-i18n-micro-types@1.0.4: {}
 
-  nuxt-i18n-micro@1.83.3(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.3))):
+  nuxt-i18n-micro@1.83.4(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.3))):
     dependencies:
       '@nuxt/devtools-kit': 2.3.2(magicast@0.3.5)(vite@6.2.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))
       '@nuxt/kit': 3.16.2(magicast@0.3.5)
@@ -10473,7 +10473,7 @@ snapshots:
 
   vue-bundle-renderer@2.1.1:
     dependencies:
-      ufo: 1.5.4
+      ufo: 1.6.1
 
   vue-demi@0.14.10(vue@3.5.13(typescript@5.8.3)):
     dependencies:
