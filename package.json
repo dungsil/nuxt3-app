@@ -25,7 +25,7 @@
     "eslint": "9.25.1",
     "eslint-plugin-format": "1.0.1",
     "eslint-plugin-security": "3.0.1",
-    "nitropack": "2.11.9",
+    "nitropack": "2.11.10",
     "nuxt": "3.16.2",
     "nuxt-i18n-micro": "1.84.1",
     "nuxt-i18n-micro-cli": "1.1.1",
