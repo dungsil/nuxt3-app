@@ -39,8 +39,8 @@ importers:
         specifier: 3.17.1
         version: 3.17.1(@netlify/blobs@8.2.0)(@parcel/watcher@2.5.0)(@types/node@22.15.3)(db0@0.3.2)(encoding@0.1.13)(eslint@9.25.1(jiti@2.4.2))(ioredis@5.6.1)(lightningcss@1.29.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.40.0)(terser@5.37.0)(typescript@5.8.3)(vite@6.3.3(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(yaml@2.7.0)
       nuxt-i18n-micro:
-        specifier: 1.85.1
-        version: 1.85.1(magicast@0.3.5)(vite@6.3.3(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.1(vue@3.5.13(typescript@5.8.3)))
+        specifier: 1.86.0
+        version: 1.86.0(magicast@0.3.5)(vite@6.3.3(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.1(vue@3.5.13(typescript@5.8.3)))
       nuxt-i18n-micro-cli:
         specifier: 1.1.1
         version: 1.1.1
@@ -4191,11 +4191,11 @@ packages:
   nuxt-i18n-micro-types@1.0.3:
     resolution: {integrity: sha512-x01rPCLlb2r627Q9lzA0nRC5TEt/mg9G2Hf2fug6941YdttwZtgwOsxXx6chI6O0O2SxBB6pNepyaaVr7lUS9A==}
 
-  nuxt-i18n-micro-types@1.0.4:
-    resolution: {integrity: sha512-EmDh/Jkcl0AjhcpEm5h7wSRykWmVRuoDlb6qMGrQMBF4tl76GP0TKBJ5FByPIrpp+IsQ7Iw6UCJr0ZDcfpzmDQ==}
+  nuxt-i18n-micro-types@1.0.5:
+    resolution: {integrity: sha512-fNrdGOtrOABTpTI6757EvF3nwnkpBjTmikyqw22NLW7GH8/nDkPNx3wjj9YMl/FSqJ65j9aFmXFSChkvqBzBow==}
 
-  nuxt-i18n-micro@1.85.1:
-    resolution: {integrity: sha512-pHCXPiG49tSd6UDBF6iSAXy+BIUZGM64kmJ/hpqC/NuTAkLPtpWclTi2Lz0CJ49zLPJaeiqIE1nZJAOQzzPgoA==}
+  nuxt-i18n-micro@1.86.0:
+    resolution: {integrity: sha512-uMbE2K8X5iiRmcQhdhx/AER/2vyNMD4Fbj9GIB8fizX4i1bWyOeLIEnNDRqV9r6kkLXO0gglEn5Ksm5LYHYZSg==}
     peerDependencies:
       vue-router: '>=4.4.0'
 
@@ -10416,9 +10416,9 @@ snapshots:
 
   nuxt-i18n-micro-types@1.0.3: {}
 
-  nuxt-i18n-micro-types@1.0.4: {}
+  nuxt-i18n-micro-types@1.0.5: {}
 
-  nuxt-i18n-micro@1.85.1(magicast@0.3.5)(vite@6.3.3(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.1(vue@3.5.13(typescript@5.8.3))):
+  nuxt-i18n-micro@1.86.0(magicast@0.3.5)(vite@6.3.3(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))(vue-router@4.5.1(vue@3.5.13(typescript@5.8.3))):
     dependencies:
       '@nuxt/devtools-kit': 2.4.0(magicast@0.3.5)(vite@6.3.3(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.37.0)(yaml@2.7.0))
       '@nuxt/kit': 3.17.1(magicast@0.3.5)
@@ -10426,7 +10426,7 @@ snapshots:
       globby: 14.1.0
       nuxt-i18n-micro-core: 1.0.18
       nuxt-i18n-micro-test-utils: 1.0.6
-      nuxt-i18n-micro-types: 1.0.4
+      nuxt-i18n-micro-types: 1.0.5
       sirv: 2.0.4
       ufo: 1.6.1
       vue-router: 4.5.1(vue@3.5.13(typescript@5.8.3))
