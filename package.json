@@ -27,7 +27,7 @@
     "eslint-plugin-security": "3.0.1",
     "nitropack": "2.11.11",
     "nuxt": "3.17.1",
-    "nuxt-i18n-micro": "1.86.0",
+    "nuxt-i18n-micro": "1.87.0",
     "nuxt-i18n-micro-cli": "1.1.1",
     "nuxt-security": "2.2.0",
     "reka-ui": "2.2.0",
