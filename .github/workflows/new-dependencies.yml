@@ -15,7 +15,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Show new dependencies metadata
         uses: lirantal/github-action-new-dependencies-advisor@v1.2.0
         with:
